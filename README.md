@@ -31,7 +31,7 @@ JOIN MANUTENCAO m ON v.id_placa = m.id_placa;
 ### Resultado da Consulta
 <img width="1629" height="228" alt="image" src="https://github.com/user-attachments/assets/b813eaed-9b61-49fa-871d-c61a637e08c7" />
 
-### Consultar clientes que alugaram veículos:
+### Consultar o histórico de valores de locação por veículo::
 ```sql
 SELECT c.nome, l.data_inicio, v.modelo
 FROM CLIENTE c
