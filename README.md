@@ -33,10 +33,9 @@ JOIN MANUTENCAO m ON v.id_placa = m.id_placa;
 
 ### Consultar o histórico de valores de locação por veículo::
 ```sql
-SELECT c.nome, l.data_inicio, v.modelo
-FROM CLIENTE c
-JOIN Locacao l ON l.id_placa = l.id_placa
-JOIN Veiculos v ON l.id_placa = v.id_placa;
+SELECT v.modelo, v.id_placa, l.data_inicio, l.valor_pago
+FROM Veiculos v
+JOIN Locacao l ON v.id_placa = l.id_placa;
 ```
 ### Resultado da Consulta
 <img width="1919" height="770" alt="image" src="https://github.com/user-attachments/assets/659d064d-7f5c-4719-a03f-081de2cb3043" />
