@@ -26,3 +26,11 @@ Para testar o banco, você pode usar os seguintes comandos após rodar o script:
 SELECT v.modelo, v.id_placa, m.atividades_realizadas, m.custo
 FROM Veiculos v
 JOIN MANUTENCAO m ON v.id_placa = m.id_placa;
+```
+### Consultar clientes que alugaram veículos:
+```sql
+SELECT c.nome, l.data_inicio, v.modelo
+FROM CLIENTE c
+JOIN Locacao l ON l.id_placa = l.id_placa -- No seu script atual a locação liga direto pela placa
+JOIN Veiculos v ON l.id_placa = v.id_placa;
+```
