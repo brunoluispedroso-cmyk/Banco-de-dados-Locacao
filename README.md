@@ -19,6 +19,11 @@ O diagrama abaixo representa a estrutura de dados e as relações entre as tabel
 - **MySQL**: Linguagem de consulta e estruturação.
 - **MySQL Workbench**: Ferramenta de modelagem e administração.
 
+### 🚀 Como utilizar
+1. Execute o script `sqlscript.sql` no seu gerenciador de banco de dados (ex: MySQL).
+2. O script criará as tabelas e inserirá dados de exemplo automaticamente, abaixo tem Exemplos de Consultas
+
+
 ## 📊 Exemplos de Consultas
 Para testar o banco, você pode usar os seguintes comandos após rodar o script:
 
