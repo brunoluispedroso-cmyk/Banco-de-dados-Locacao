@@ -67,4 +67,4 @@ VALUES
 (45678901234, 'Cliente D', 'D', '1988-08-05', 'Rua D, Cidade D, Estado D');
 
 
---Fim
+
