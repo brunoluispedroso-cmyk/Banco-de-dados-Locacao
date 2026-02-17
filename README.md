@@ -41,3 +41,25 @@ JOIN Veiculos v ON l.id_placa = v.id_placa;
 ### Resultado da Consulta
 <img width="1919" height="770" alt="image" src="https://github.com/user-attachments/assets/659d064d-7f5c-4719-a03f-081de2cb3043" />
 
+### Faturamento Total por Veículo
+```sql
+SELECT v.modelo, v.id_placa, SUM(l.valor_pago) AS faturamento_total
+FROM Veiculos v
+JOIN Locacao l ON v.id_placa = l.id_placa
+GROUP BY v.modelo, v.id_placa;
+```
+### Resultado da Consulta
+<img width="1626" height="224" alt="image" src="https://github.com/user-attachments/assets/eda34b75-8c4d-498f-b12b-5c0999cb6e09" />
+
+### Histórico de Manutenções Caras (Acima de R$ 180,00)
+```sql
+SELECT id_placa, atividades_realizadas, custo
+FROM MANUTENCAO
+WHERE custo > 180
+ORDER BY custo DESC;
+```
+### Resultado da Consulta
+<img width="1626" height="138" alt="image" src="https://github.com/user-attachments/assets/b9470060-8441-4821-91b6-a133b391b379" />
+
+
+
