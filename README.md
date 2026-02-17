@@ -28,7 +28,7 @@ SELECT v.modelo, v.id_placa, m.atividades_realizadas, m.custo
 FROM Veiculos v
 JOIN MANUTENCAO m ON v.id_placa = m.id_placa;
 ```
-### Imagem do Resultado 
+### Resultado da Consulta
 <img width="1629" height="228" alt="image" src="https://github.com/user-attachments/assets/b813eaed-9b61-49fa-871d-c61a637e08c7" />
 
 ### Consultar clientes que alugaram veículos:
@@ -38,6 +38,6 @@ FROM CLIENTE c
 JOIN Locacao l ON l.id_placa = l.id_placa
 JOIN Veiculos v ON l.id_placa = v.id_placa;
 ```
-### Resultado 
+### Resultado da Consulta
 <img width="1919" height="770" alt="image" src="https://github.com/user-attachments/assets/659d064d-7f5c-4719-a03f-081de2cb3043" />
 
