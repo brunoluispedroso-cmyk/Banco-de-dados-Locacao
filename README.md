@@ -5,10 +5,10 @@ Este repositório contém a modelagem e o script SQL para um sistema de gestão 
 ## 📐 Modelo Entidade-Relacionamento (DER)
 O diagrama abaixo representa a estrutura de dados e as relações entre as tabelas (Veículos, Clientes, Locação e Manutenção):
 
-##Feito a Mão 
+## Feito a Mão 
 <img width="1547" height="871" alt="image" src="https://github.com/user-attachments/assets/56a582c6-aa1d-4010-b087-42be5b532ae8" />
 
-##DB Diagram
+## DB Diagram
 <img width="1055" height="816" alt="image" src="https://github.com/user-attachments/assets/3d0040fd-afbf-40eb-8243-c4efe33c27a6" />
 
 
