@@ -31,6 +31,6 @@ JOIN MANUTENCAO m ON v.id_placa = m.id_placa;
 ```sql
 SELECT c.nome, l.data_inicio, v.modelo
 FROM CLIENTE c
-JOIN Locacao l ON l.id_placa = l.id_placa -- No seu script atual a locação liga direto pela placa
+JOIN Locacao l ON l.id_placa = l.id_placa
 JOIN Veiculos v ON l.id_placa = v.id_placa;
 ```
