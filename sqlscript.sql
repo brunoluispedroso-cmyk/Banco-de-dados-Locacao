@@ -66,3 +66,5 @@ VALUES
 (34567890123, 'Cliente C', 'C', '1995-12-10', 'Rua C, Cidade C, Estado C'),
 (45678901234, 'Cliente D', 'D', '1988-08-05', 'Rua D, Cidade D, Estado D');
 
+
+--Fim
