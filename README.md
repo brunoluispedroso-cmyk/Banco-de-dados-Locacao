@@ -1,6 +1,7 @@
 # 🚗 Banco de Dados: Sistema de Locadora
 
 Este repositório contém a modelagem e o script SQL para um sistema de gestão de locação de veículos, incluindo controle de clientes, frota, contratos e manutenção.
+**Confira o planejamento detalhado:** [Trabalho, Banco de dados.pdf](./Trabalho,%20Banco%20de%20dados.pdf)
 
 ## 📐 Modelo Entidade-Relacionamento (DER)
 O diagrama abaixo representa a estrutura de dados e as relações entre as tabelas (Veículos, Clientes, Locação e Manutenção):
